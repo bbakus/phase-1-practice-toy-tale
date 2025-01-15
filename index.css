@@ -18,7 +18,18 @@ body {
 }
 
 #toy-collection {
-  margin: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 17vw;
+  margin-top: 10vh;
+  margin-right: 10vw;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
 .card {
